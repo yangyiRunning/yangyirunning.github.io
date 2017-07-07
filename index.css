@@ -1,0 +1,35 @@
+ul li {
+    list-style: disc
+}
+
+p {
+    font-weight: 900;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    line-height: 30px;
+    background-color: #eeeeee;
+    width: auto;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+
+html, body {
+    height: 100%;
+}
