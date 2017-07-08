@@ -1,10 +1,145 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>my github pager</title>
-  </head>
-  <body>
-    <p>Hello Github Pager</p>
-  </body>
+    <title>my GitHub pager</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<script src="index.js"></script>
+<header>
+    <h1>我的简历</h1>
+</header>
+<hr>
+<h2>一句话概括自己：</h2>
+<div>Android高级开发工程师，JavaScript语言爱好者。</div>
+<h2>技能树：</h2>
+<ol>
+    <li>
+        <p>计算机通识</p>
+        <ul>
+            <li>具有扎实的数据结构基础；</li>
+            <li>深刻理解并运用面向对象（OOP）思想解决现实问题；</li>
+            <li>熟练掌握Java；</li>
+            <li>理解并掌握TCP/IP,HTTP协议；</li>
+            <li>熟悉常见的设计模式，例如观察者模式，简单工厂模式，适配器模式，迭代器模式，Builder模式等；</li>
+        </ul>
+    </li>
+    <li>
+        <p>Android技术栈</p>
+        <ul>
+            <li>擅用Android应用层开发上层建筑：Google MVP + RxJava + Retrofit + EventBus + ButterKnife + LeakCanary;</li>
+            <li>面向接口编程，模块化拆分，使每个模块尽可能的独立成一个本地Lib，方便后期孵化同质化App；</li>
+            <li>熟练掌握Android四大组件及Fragment的调用机制和彼此之间的数据传输通信；</li>
+            <li>熟练掌握Android五大数据存储方式并根据项目需求灵活应用；</li>
+            <li>熟练掌握Android消息机制、事件分发机制、View的绘制原理；</li>
+            <li>熟练掌握Android动画发展史及彼此间的优缺点、适用场景；</li>
+            <li>熟练掌握Android V层的布局，编写针对不同机型适配性较好的UI界面；</li>
+            <li>深刻理解MD设计风格；</li>
+            <li>了解Android跨进程（IPC）通信；</li>
+        </ul>
+    </li>
+    <li>
+        <p>多人协作</p>
+        <ul>
+            <li>熟练使用Git命令行进行版本管理；</li>
+            <li>GitHub活跃用户，推崇基于Feature分支的Fork+PR的团队开发模式。</li>
+        </ul>
+    </li>
+    <li>
+        <p>偏基础设施性质的第三方库</p>
+        <ul>
+            <li>地图：高德</li>
+            <li>支付：ping++</li>
+            <li>音视频播放：节操</li>
+            <li>客服IM：融云，环信</li>
+            <li>多渠道打包、统计： 友盟</li>
+        </ul>
+    </li>
+</ol>
+<h2>三省吾身：</h2>
+<ul>
+    <li>
+        对自己的定位：大前端。主攻Android端，在Web端以及其他方面打打辅助。
+        我不希望过于依赖别人，即使没有后端没有设计没有产品经理，我依然想要把这个产品做到好。
+    </li>
+    <li>
+        对工作的态度：高效完成本职工作，在完成的基础之上追求最佳实践，课余阅读专业书籍补充基础知识，这不仅是一份工作，更是一份事业。
+    </li>
+    <li>
+        解决棘手问题：Google + GitHub + StackOverflow，业界都懂，不用过多解释；除此之外，偏重基础和原理方面的，查书 + 阅读源码 +
+        动手实验，也是不错的解决思路；
+    </li>
+    <li>
+        如何保持视野：日刷GitHub Trending，积极Follow好玩的开源项目；泡社区，比如掘金，及时接受业界资讯；
+    </li>
+    <li>
+        如何持续发展：算法 + 数据结构 = 程序，上层再花哨，内功也是这些，所以更愿意把精力集中在原生语言和数据结构及算法本身，而不是一味去追瞬息万变的上层框架；
+    </li>
+    <li>我的优势：拥有持续自我学习的动力和能力，有着不达目的誓不罢休的韧劲，良好的逻辑思维；另外相较于其他Android工程师，掌握JavaScript + H5 + CSS也是我的优势之一；</li>
+    <li>我的劣势：学历方面是短板，在这个看"脸"的时代，学历就是"脸"，参加了自学考试，目前仅剩3门就可毕业，死磕自考中……</li>
+</ul>
+<h2>一路走来：</h2>
+<p>北京万门教育，Android高级开发工程师，2017年4月至今</p>
+<ol>
+    <li>
+        <p>万门大学、中学App线上迭代和维护</p>
+        <ul>
+            <li>万门大学和中学是万门教育旗下的主打产品，以虚拟网络大学的形式面向在校学生推出定制化的精品在线课程，竞品有网易、新浪等公开课，可汗学院等；</li>
+            <li>负责大学中学两款App的整体重构，线上维护，和业务版本迭代；</li>
+            <li>引入LeakCanary对原有线上项目进行扫描，修补内存泄漏之处，并在重构阶段继续使用。</li>
+        </ul>
+    </li>
+    <li>
+        <p>Android团队重构阶段基础架构搭建</p>
+        <ul>
+            <li>负责整个Android团队重构阶段的基础设施建立，Android架构主推MVP，消息总线改用EventBus，数据库采用Realm；</li>
+            <li>在开发过程中引入checkstyle，严格执行代码书写规范；</li>
+            <li>采取响应式编程方式，大力引入Rx技术栈；</li>
+            <li>视频播放器采用节操播放器；</li>
+            <li>重新封装Retrofit，独立成为一个Lib，完全于项目解耦；</li>
+            <li>通过2个月的开发周期，将项目成功上线；</li>
+        </ul>
+    </li>
+</ol>
+<hr>
+<p>快乐家网络科技（北京）有限公司， Android高级开发工程师， 2016年5月~2016年11月</p>
+<ol>
+    <li>
+        <p>优舍，优舍良匠两款App的从0开发到项目上线</p>
+        <ul>
+            <li>优舍系列的产品为房地产O2O类项目，B2C模式，为核心产品线；</li>
+            <li>负责依照产品原型和UI效果图进行开发和迭代，主要使用基于OkHttp+Volley+EventBus的二次封装完成数据获取和事件传输；</li>
+            <li>推崇Rx技术栈以及MVP模式；</li>
+        </ul>
+    </li>
+    <li>
+        <p>验收外包团队项目，在此基础上进行二次开发</p>
+        <ul>
+            <li>负责验收，主要从代码整洁程度，命名规范，最佳实践等角度进行；</li>
+            <li>详细参照阿里Java开发手册；</li>
+        </ul>
+    </li>
+</ol>
+<hr>
+<p>北京天合数维科技有限公司， Android开发工程师， 2015年1月~2016年4月</p>
+<ol>
+    <li>
+        <p>国家统计局三农普系列项目（涵盖农业保险，耕地统计调查，无人机采集。每一个业务线都是一个App）的跟进开发</p>
+        <ul>
+            <li>开发基于GPS坐标定位的专门适用于农地的统计调查系统；</li>
+            <li>集成本地GIS数据，第三方高德API；</li>
+        </ul>
+    </li>
+    <li>
+        <p>A5（调查用机，可理解为Android手机）上OS中的预装软件</p>
+        <ul>
+            <li>采用Umeng多渠道打包，结合CI把各个版本Apk上传到自己域名上，方便设备采集人员及时进行安装；</li>
+        </ul>
+    </li>
+</ol>
+<footer>
+    the End
+</footer>
+</body>
 </html>
