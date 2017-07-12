@@ -30,10 +30,15 @@ nav {
 
 ul li {
     list-style-type: none;
+}
+
+.icon_style {
+    height: 20px;
+    line-height: 20px;
     padding-left: 25px;
+    margin-left: -25px;
     background-repeat: no-repeat;
     background-size: 20px;
-    margin-left: -25px;
 }
 
 .computer_basic {
@@ -41,7 +46,15 @@ ul li {
 }
 
 .android_skill {
-    background-image: url("./icon/anderoid.png");
+    background-image: url("./icon/android_skill.png");
+}
+
+.peoples {
+    background-image: url("./icon/peoples.png");
+}
+
+.third_party {
+    background-image: url("./icon/third_party.png");
 }
 
 .sliding {
@@ -51,7 +64,8 @@ ul li {
     right: 0;
     color: white;
     width: 25%;
-    background-color: #222;
+    text-align: left;
+    background-color: #f0f0e9;
 }
 
 .content {
@@ -62,4 +76,82 @@ ul li {
 body {
     margin: 0;
     padding: 0;
+}
+
+.anyway {
+    font-weight: bold;
+}
+
+.personal_message {
+    margin-top: 40%;
+    color: #333333;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personal_message_list {
+    margin: 10px;
+}
+
+.name {
+    background-image: url("./icon/name.png");
+}
+
+.gender {
+    background-image: url("./icon/gender.png");
+}
+
+.work_time {
+    background-image: url("./icon/work_time.png");
+}
+
+.age {
+    background-image: url("./icon/age.png");
+}
+
+.working_location {
+    background-image: url("./icon/working_location.png");
+}
+
+.phone {
+    background-image: url("./icon/phone.png");
+}
+
+.wechat {
+    background-image: url("./icon/wechat.png");
+}
+
+.email {
+    background-image: url("./icon/email.png");
+}
+
+.GitHub {
+    float: left;
+    margin-left: 20px;
+    list-style-type: disc;
+    color: red;
+    background-image: url("./icon/github.png");
+}
+
+.LeetCode {
+    float: left;
+    margin-left: 40px;
+    list-style-type: disc;
+    color: red;
+    background-image: url("./icon/global.png");
+}
+
+.link_out {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover, a:active {
+    background-color: #cc0000;
+}
+
+a {
+    text-decoration: none;
 }
