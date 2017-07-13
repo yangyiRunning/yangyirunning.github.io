@@ -3,17 +3,21 @@ p {
 }
 
 header {
-    background-color: black;
-    color: white;
-    margin-right: 25%;
-    text-align: center;
+    background-color: white;
+    color: #999999;
+    margin-right: 23%;
+    margin-left: 15px;
+    font-weight: 900;
+    font-family: Georgia, serif;
+    text-align: left;
     padding: 5px;
+    margin-bottom: 9px;
 }
 
 footer {
-    margin-right: 25%;
-    background-color: bisque;
-    color: white;
+    margin-right: 23%;
+    background-color: white;
+    color: #999999;
     clear: both;
     text-align: center;
     padding: 5px;
@@ -30,6 +34,7 @@ nav {
 
 ul li {
     list-style-type: none;
+    margin: 10px;
 }
 
 .icon_style {
@@ -63,14 +68,14 @@ ul li {
     position: fixed;
     right: 0;
     color: white;
-    width: 25%;
+    width: 23%;
     text-align: left;
     background-color: #f0f0e9;
 }
 
 .content {
     padding-left: 20px;
-    margin-right: 25%;
+    margin-right: 23%;
 }
 
 body {
@@ -83,7 +88,7 @@ body {
 }
 
 .personal_message {
-    margin-top: 40%;
+    margin-top: 20%;
     color: #333333;
     width: 300px;
     margin-left: auto;
@@ -91,11 +96,30 @@ body {
 }
 
 .personal_message_list {
-    margin: 10px;
+    margin: 20px;
 }
 
 .name {
-    background-image: url("./icon/name.png");
+    color: #666666;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Kaiti SC", serif;
+    margin-top: 15%;
+}
+
+.i_want_job{
+    margin-top: 20px;
+    color: #666666;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Heiti SC", serif;
+}
+
+#find_job_img{
+    width: 25px;
+    height: 25px;
 }
 
 .gender {
@@ -158,7 +182,7 @@ a {
 
 .location_self {
     background-image: url("./icon/location_self.png");
-    height: 45px;
+    height: 20px;
 }
 
 .work {
@@ -198,17 +222,86 @@ a {
     background-image: url("./icon/badness.png");
 }
 
-.wanmen{
+.wanmen {
     margin-left: 15px;
     background-image: url("./icon/wanmen.png");
 }
 
-.huizhuang{
+.huizhuang {
     margin-left: 15px;
     background-image: url("./icon/huizhuang.jpg");
 }
 
-.tianheshiwei{
+.tianheshiwei {
     margin-left: 15px;
     background-image: url("./icon/tianheshiwei.jpg");
+}
+
+.skill_list li {
+    list-style-type: none;
+    background-size: 20px;
+    padding-left: 25px;
+    margin-left: -25px;
+    background-repeat: no-repeat;
+    background-image: url("./icon/skill_navigation.png");
+}
+
+.task_list li {
+    list-style-type: none;
+    background-size: 20px;
+    padding-left: 25px;
+    margin-left: -25px;
+    background-repeat: no-repeat;
+    background-image: url("./icon/task_work.png");
+}
+
+#university {
+    margin-left: 12px;
+    width: 44px;
+    height: 44px;
+    float: left;
+}
+
+.university {
+    margin-top: 50%;
+}
+
+.major {
+    color: gray;
+}
+
+#major {
+    margin-left: 66px;
+}
+
+.profile {
+    color: #999999;
+    display: inline;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Georgia, serif;
+    margin-left: 10px;
+}
+
+.profile_img {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.profile_div {
+    margin-bottom: 11px;
+}
+
+.cut_line {
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    background-color: #ddd;
+    line-height: 1px;
+    text-align: center;
 }
