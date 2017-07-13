@@ -38,7 +38,7 @@ ul li {
 }
 
 .icon_style {
-    height: 20px;
+    height: auto;
     line-height: 20px;
     padding-left: 25px;
     margin-left: -25px;
@@ -75,6 +75,7 @@ ul li {
     width: 23%;
     text-align: left;
     background-color: #f0f0e9;
+    overflow: scroll;
 }
 
 .content {
@@ -196,44 +197,51 @@ a {
 }
 
 .location_self {
+    margin-top: 25px;
+    margin-bottom: 25px;
     background-image: url("./icon/location_self.png");
-    height: 20px;
+    height: auto;
 }
 
 .work {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     background-image: url("./icon/work.png");
 }
 
 .solve_problem {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: auto;
     background-image: url("./icon/solve_problem.png");
 }
 
 .view {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: auto;
     background-image: url("./icon/view.png");
 }
 
 .develop {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: auto;
     background-image: url("./icon/develop.png");
 }
 
 .goodness {
-    height: 40px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: auto;
     background-image: url("./icon/goodness.png");
 }
 
 .badness {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: auto;
     background-image: url("./icon/badness.png");
 }
 
