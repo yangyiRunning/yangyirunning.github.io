@@ -103,7 +103,8 @@ body {
 }
 
 .personal_message_list {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 1.1em;
 }
 
@@ -158,6 +159,10 @@ body {
     background-image: url("./icon/email.png");
 }
 
+.my_home{
+    background-image: url("./icon/my_home.png");
+}
+
 .GitHub {
     font-size: 1.1em;
     float: left;
@@ -183,7 +188,7 @@ body {
 }
 
 a:hover, a:active {
-    background-color: #cc0000;
+    background-color: gold;
 }
 
 a {
