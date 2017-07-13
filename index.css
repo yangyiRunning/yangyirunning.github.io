@@ -46,6 +46,10 @@ ul li {
     background-size: 20px;
 }
 
+.skill_company_title {
+    font-size: 1.2em;
+}
+
 .computer_basic {
     background-image: url("./icon/knowledge.png");
 }
@@ -97,6 +101,7 @@ body {
 
 .personal_message_list {
     margin: 20px;
+    font-size: 1.1em;
 }
 
 .name {
@@ -108,7 +113,7 @@ body {
     margin-top: 15%;
 }
 
-.i_want_job{
+.i_want_job {
     margin-top: 20px;
     color: #666666;
     font-size: 25px;
@@ -117,7 +122,7 @@ body {
     font-family: "Heiti SC", serif;
 }
 
-#find_job_img{
+#find_job_img {
     width: 25px;
     height: 25px;
 }
@@ -151,6 +156,7 @@ body {
 }
 
 .GitHub {
+    font-size: 1.1em;
     float: left;
     margin-left: 20px;
     list-style-type: disc;
@@ -159,6 +165,7 @@ body {
 }
 
 .LeetCode {
+    font-size: 1.1em;
     float: left;
     margin-left: 40px;
     list-style-type: disc;
@@ -167,7 +174,7 @@ body {
 }
 
 .link_out {
-    width: 300px;
+    width: 330px;
     margin-left: auto;
     margin-right: auto;
 }
