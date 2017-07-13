@@ -155,3 +155,60 @@ a:hover, a:active {
 a {
     text-decoration: none;
 }
+
+.location_self {
+    background-image: url("./icon/location_self.png");
+    height: 45px;
+}
+
+.work {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("./icon/work.png");
+}
+
+.solve_problem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("./icon/solve_problem.png");
+}
+
+.view {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("./icon/view.png");
+}
+
+.develop {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("./icon/develop.png");
+}
+
+.goodness {
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("./icon/goodness.png");
+}
+
+.badness {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("./icon/badness.png");
+}
+
+.wanmen{
+    margin-left: 15px;
+    background-image: url("./icon/wanmen.png");
+}
+
+.huizhuang{
+    margin-left: 15px;
+    background-image: url("./icon/huizhuang.jpg");
+}
+
+.tianheshiwei{
+    margin-left: 15px;
+    background-image: url("./icon/tianheshiwei.jpg");
+}
