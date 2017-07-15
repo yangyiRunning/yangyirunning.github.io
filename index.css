@@ -81,6 +81,7 @@ ul li {
 .content {
     padding-left: 20px;
     margin-right: 23%;
+    overflow: scroll;
 }
 
 body {
@@ -160,7 +161,7 @@ body {
     background-image: url("./icon/email.png");
 }
 
-.my_home{
+.my_home {
     background-image: url("./icon/my_home.png");
 }
 
