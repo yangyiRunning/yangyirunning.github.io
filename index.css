@@ -251,6 +251,24 @@ a {
     background-image: url("./icon/wanmen.png");
 }
 
+.business_video{
+    margin-left: 23px;
+    background-image: url("./icon/video.png");
+    font-size: 1.1em;
+}
+
+.decoration{
+    margin-left: 23px;
+    background-image: url("./icon/decoration.png");
+    font-size: 1.1em;
+}
+
+.data_selector{
+    margin-left: 23px;
+    background-image: url("./icon/data_selector.png");
+    font-size: 1.1em;
+}
+
 .huizhuang {
     margin-left: 15px;
     background-image: url("./icon/huizhuang.jpg");
