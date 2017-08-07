@@ -347,3 +347,20 @@ a {
     line-height: 1px;
     text-align: center;
 }
+
+.company_location{
+    margin-left: 23px;
+    background-image: url("./icon/company_location.png");
+    font-size: 1.1em;
+}
+
+.huihong{
+    margin-left: 15px;
+    background-image: url("./icon/vacant_position.png");
+}
+
+.mobile_communication{
+    margin-left: 23px;
+    background-image: url("./icon/mobile_data_analyse.png");
+    font-size: 1.1em;
+}
