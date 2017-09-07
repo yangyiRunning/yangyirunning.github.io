@@ -26,7 +26,6 @@ function alertMe() {
     let email = document.getElementsByClassName("email")[0].innerHTML;
     let my_home = document.getElementsByClassName("my_home")[0].innerText;
     let content =
-        "this is Js alert" + "\n" +
         name + "\n" +
         gender + "\n" +
         age + "\n" +
@@ -37,6 +36,6 @@ function alertMe() {
         email + "\n" +
         my_home + "\n";
     alert(content);
-    window.show.show(content);
+    window.show.show("this is Js alert" + "\n" + content);
     return "isDone"
 }
