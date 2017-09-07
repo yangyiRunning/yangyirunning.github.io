@@ -35,5 +35,6 @@ function alertMe() {
         email + "\n" +
         my_home + "\n"
     alert(content);
-    show.show(content);
+    window.show.show(content);
+    return "isDone"
 }
