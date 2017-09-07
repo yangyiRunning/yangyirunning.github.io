@@ -25,7 +25,9 @@ function alertMe() {
     let wechat = document.getElementsByClassName("wechat")[0].innerHTML;
     let email = document.getElementsByClassName("email")[0].innerHTML;
     let my_home = document.getElementsByClassName("my_home")[0].innerText;
-    let content = name + "\n" +
+    let content =
+        "this is Js alert" + "\n" +
+        name + "\n" +
         gender + "\n" +
         age + "\n" +
         work_time + "\n" +
