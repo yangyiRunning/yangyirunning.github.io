@@ -35,7 +35,7 @@ function alertMe() {
         phone + "\n" +
         wechat + "\n" +
         email + "\n" +
-        my_home + "\n"
+        my_home + "\n";
     alert(content);
     window.show.show(content);
     return "isDone"
