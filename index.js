@@ -37,5 +37,4 @@ function alertMe() {
         my_home + "\n";
     alert("this is Js alert" + "\n" + content);
     window.show.show(content);
-    return "isDone"
 }
