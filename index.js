@@ -35,6 +35,6 @@ function alertMe() {
         wechat + "\n" +
         email + "\n" +
         my_home + "\n";
-    alert("this is Js alert" + "\n" + content);
+    alert(content);
     window.show.show(content);
 }
