@@ -167,10 +167,13 @@ body {
 
 .GitHub {
     font-size: 1.1em;
-    float: left;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     list-style-type: disc;
+    /* text-align: center; */
     color: red;
+    float: left;
+    position: relative;
+    left: 50%;
     background-image: url("./icon/github.png");
 }
 
@@ -187,9 +190,11 @@ body {
     width: 330px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     background-color: gold;
 }
 
@@ -246,24 +251,35 @@ a {
     background-image: url("./icon/badness.png");
 }
 
+.hexun {
+    margin-left: 15px;
+    background-image: url("./icon/hexun.png");
+}
+
+.economics {
+    margin-left: 23px;
+    background-image: url("./icon/economics.png");
+    font-size: 1.1em;
+}
+
 .wanmen {
     margin-left: 15px;
     background-image: url("./icon/wanmen.png");
 }
 
-.business_video{
+.business_video {
     margin-left: 23px;
     background-image: url("./icon/video.png");
     font-size: 1.1em;
 }
 
-.decoration{
+.decoration {
     margin-left: 23px;
     background-image: url("./icon/decoration.png");
     font-size: 1.1em;
 }
 
-.data_selector{
+.data_selector {
     margin-left: 23px;
     background-image: url("./icon/data_selector.png");
     font-size: 1.1em;
@@ -348,18 +364,18 @@ a {
     text-align: center;
 }
 
-.company_location{
+.company_location {
     margin-left: 23px;
     background-image: url("./icon/company_location.png");
     font-size: 1.1em;
 }
 
-.huihong{
+.huihong {
     margin-left: 15px;
     background-image: url("./icon/vacant_position.png");
 }
 
-.mobile_communication{
+.mobile_communication {
     margin-left: 23px;
     background-image: url("./icon/mobile_data_analyse.png");
     font-size: 1.1em;

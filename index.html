@@ -1,225 +1,269 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>喵~</title>
-    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<div class="sliding">
-    <div class="profile_div">
-        <img class="profile_img" src="./icon/profile.png" alt="profile">
-        <div class="profile">Profile</div>
-    </div>
-    <div class="cut_line">&nbsp;</div>
-    <div class="name">杨轶</div>
-    <div class="i_want_job">
-        <img id="find_job_img" src="./icon/find_job.png" alt="find_job">
-        Android高级开发工程师
-    </div>
-    <div class="personal_message">
-        <ul>
-            <li class="gender icon_style personal_message_list">男</li>
-            <li class="age icon_style personal_message_list">26岁</li>
-            <li class="work_time icon_style personal_message_list">3年Java，4年Android</li>
-            <li class="working_location icon_style personal_message_list">北京</li>
-            <li class="phone icon_style personal_message_list">18813143928</li>
-            <li class="wechat icon_style personal_message_list">同电话号码</li>
-            <li class="email icon_style personal_message_list">yangyirunning@163.com</li>
-            <li class="my_home icon_style personal_message_list">
-                <a href="https://yangyirunning.github.io">https://yangyirunning.github.io</a>
-            </li>
-        </ul>
-    </div>
-    <br>
-    <div class="link_out">
-        <ul>
-            <li class="GitHub icon_style">
+    <div class="sliding">
+        <div class="profile_div">
+            <img class="profile_img" src="./icon/profile.png" alt="profile">
+            <div class="profile">Profile</div>
+        </div>
+        <div class="cut_line">&nbsp;</div>
+        <div class="name">杨轶</div>
+        <div class="i_want_job">
+            <img id="find_job_img" src="./icon/find_job.png" alt="find_job">
+            Android高级开发工程师
+        </div>
+        <div class="personal_message">
+            <ul>
+                <li class="gender icon_style personal_message_list">男</li>
+                <li class="age icon_style personal_message_list">28岁</li>
+                <li class="work_time icon_style personal_message_list">3年Java，4年Android</li>
+                <li class="working_location icon_style personal_message_list">北京</li>
+                <li class="phone icon_style personal_message_list">18813143928</li>
+                <li class="wechat icon_style personal_message_list">同电话号码</li>
+                <li class="email icon_style personal_message_list">yangyirunning@163.com</li>
+                <li class="my_home icon_style personal_message_list">
+                    <a href="https://yangyirunning.github.io">https://yangyirunning.github.io</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="link_out">
+            <div class="GitHub icon_style">
                 <a href="https://github.com/yangyiRunning" target="view_window">GitHub</a>
-            </li>
-        </ul>
-        <ul>
+            </div>
+            <!-- <ul>
+                <li class="GitHub icon_style">
+                    <a href="https://github.com/yangyiRunning" target="view_window">GitHub</a>
+                </li>
+            </ul> -->
+            <!-- <ul>
             <li class="LeetCode icon_style">
                 <a href="https://leetcode.com/yangyirunning/" target="view_window">LeetCode</a>
             </li>
+        </ul> -->
+        </div>
+    </div>
+    <header>
+        <h1>Resume</h1>
+    </header>
+    <div class="cut_line">&nbsp;</div>
+    <div class="content">
+        <h2>一句话概括自己：</h2>
+        <div class="anyway icon_style">高级Android，Java熟手，爱好Kotlin，了解web老三件(JS+CSS+H5)</div>
+        <h2>技能树：</h2>
+        <ul>
+            <li>
+                <p class="computer_basic icon_style skill_company_title">计算机通识</p>
+                <ol class="skill_list">
+                    <li>常见数据结构与算法；</li>
+                    <li>运用面向对象（OOP）思想解决实际问题；</li>
+                    <li>掌握Java；</li>
+                    <li>掌握Java内存模型(JMM)；</li>
+                    <li>掌握TCP/IP协议,HTTP协议；</li>
+                    <li>编码、加密、Hash、序列化；</li>
+                    <li>常见的设计模式，例如观察者模式，简单工厂模式，适配器模式，迭代器模式，Builder模式，代理模式等；</li>
+                </ol>
+            </li>
+            <li>
+                <p class="android_skill icon_style skill_company_title">Android技术栈</p>
+                <ul class="skill_list">
+                    <li>View的测量、布局、绘制；</li>
+                    <li>触摸反馈；</li>
+                    <li>Java多线程本质原理；</li>
+                    <li>Android消息机制本质原理；</li>
+                    <li>RxJava + Retrofit + OkHttp；</li>
+                    <li>Google MVP + MVC + MVVM；</li>
+                    <li>Android各基础组件以及Android数据存储方式；</li>
+                    <li>Android动画发展史、动画特点：View动画、属性动画；</li>
+                    <li>模块化:面向接口编程，base以及业务模块拆分，使每个模块尽可能的独立成一个本地Lib，方便后期孵化同质化App；</li>
+                </ul>
+            </li>
+            <li>
+                <p class="peoples icon_style skill_company_title">多人协作</p>
+                <ul class="skill_list">
+                    <li>Git分布仓库(命令行)；</li>
+                    <li>SVN中央仓库；</li>
+                    <li>基于Feature的Fork+PR，GitFlow工作流模式；</li>
+                </ul>
+            </li>
+            <li>
+                <p class="third_party icon_style skill_company_title">偏基础设施性质的第三方库(自己封装)</p>
+                <ul class="skill_list">
+                    <li>基于Google Android开发蓝图的MVP封装；</li>
+                    <li>基于友盟的社会化分享、Dplus埋点；</li>
+                    <li>基于Zxing的二维码扫描；</li>
+                    <li>基于喜马拉雅的电台封装；</li>
+                </ul>
+            </li>
         </ul>
+        <h2>三省吾身：</h2>
+        <ul>
+            <li class="icon_style location_self">
+                对自己的定位：主攻Android，以Android为圆心，临近技术为半径画圆，尽量把圆心点的实，半径画的大。
+                我不希望过于依赖别人，力争做特种兵，力争拥有属于个人品牌的App。
+            </li>
+            <li class="icon_style work">
+                对工作的态度：是工作更是事业，高效完成本职工作，在此基础之上追求最佳实践，课余阅读专业书籍夯实基础知识以及拓展视野。
+            </li>
+            <li class="icon_style solve_problem">
+                解决棘手问题：Google + GitHub + StackOverflow，业界都懂，不用过多解释；除此之外，偏重基础和原理方面的，查书 + 阅读源码 +
+                动手实验，也是不错的解决思路；
+            </li>
+            <li class="icon_style view">
+                如何保持视野：1. Follow技术圈优质公众号，并且把精彩内容手动整理成了一个开源项目；2. 周刷GitHub Trending，积极Follow好玩的开源项目；3. 泡社区，比如掘金，及时接受业界资讯；
+            </li>
+            <li class="icon_style develop">
+                如何持续发展：1. 基础、基础、还是基础。基础 >> 追新。内功 >> 上层框架。 2. 培养代码意识，团队意识。
+            </li>
+            <li class="icon_style goodness">我的优势：强烈危机意识，不间断自我学习和自我完善，有着不达目的誓不罢休的韧劲，良好的逻辑思维；
+            </li>
+            <li class="icon_style badness">我的劣势：非名校科班出身，数据结构和算法是弱项。</li>
+        </ul>
+        <h2>教育经历：</h2>
+        <div><img id="university" src="./icon/beihang_university_logo.png" alt="university"></div>
+        <div id="major">
+            <p>
+                <div>北京航空航天大学</div>
+                <div class="major">本科(在读) 计算机科学与技术</div>
+            </p>
+        </div>
+        <div><img id="university" src="./icon/university.jpg" alt="university"></div>
+        <div id="major">
+            <p>
+                <div>西安外事学院</div>
+                <div class="major">统招大专 计算机通信</div>
+            </p>
+        </div>
+        <h2>一路走来：</h2>
+        <p class="icon_style hexun skill_company_title">和讯网和讯财经，Android高级开发工程师，2017年9月~至今</p>
+        <p class="icon_style company_location skill_company_title">所在地：北京</p>
+        <p class="icon_style economics skill_company_title">财经资讯类</p>
+        <ol>
+            <li>
+                <p>和讯财经黑客增长团队，App线上功能优化、需求开发、维护迭代</p>
+                <ul class="task_list">
+                    <li>和讯财经是一款财经资讯类App，主要面向用户提供财经类新闻。截止目前日活15万+，应用宝下载量200万+，且每天仍处于稳步增长中，是和讯公司众多产品线中全力主推的一款产品；</li>
+                    <li>负责的业务模块：1. 新闻专题；2. 评论模块； 3. 搜索模块； 4. 新人福利； 5. 多渠道url和图片分享；6. 每日热点新闻频道； 7. 专栏频道、专栏广场； 8. 护眼模式；
+                        9.
+                        新闻早晚报； 10. 自选股行情； 11. 公告研报PDF； 12. 云端收藏模块； 13. 推荐股票； </li>
+                </ul>
+            </li>
+            <li>
+                <p>和讯财经App工程项目基础设施库开发</p>
+                <ul class="task_list">
+                    <li>activity隐式路由；</li>
+                    <li>扫一扫库(二维码扫描)；</li>
+                    <li>早晚报百度TTS库(文本转语音)；</li>
+                    <li>电台播放器；</li>
+                    <li>多渠道分享链接、图片、小程序；</li>
+                    <li>代码规约；</li>
+                    <li>工程项目APK包压缩；</li>
+            </li>
+            </ul>
+            </li>
+        </ol>
+        <div class="cut_line">&nbsp;</div>
+        <p class="icon_style wanmen skill_company_title">北京万门教育，Android高级开发工程师，2017年4月~2017年7月</p>
+        <p class="icon_style company_location skill_company_title">所在地：北京</p>
+        <p class="icon_style business_video skill_company_title">教育类，直播，音视频</p>
+        <ol>
+            <li>
+                <p>万门大学、中学App线上迭代和维护</p>
+                <ul class="task_list">
+                    <li>万门大学和中学是万门教育旗下的主打产品，以虚拟网络大学的形式面向在校学生推出定制化的精品在线课程，竞品有网易、新浪等公开课，可汗学院等；</li>
+                    <li>负责大学中学两款App的整体重构，线上维护，和业务版本迭代；</li>
+                    <li>引入LeakCanary对原有线上项目进行扫描，修补内存泄漏之处，并在重构阶段继续使用。</li>
+                </ul>
+            </li>
+            <li class="task_list">
+                <p>Android团队重构阶段基础架构搭建</p>
+                <ul>
+                    <li>负责整个Android团队重构阶段的基础设施建立，Android架构主推MVP，消息总线改用EventBus，数据库采用Realm；</li>
+                    <li>在开发过程中引入checkstyle，严格执行代码书写规范；</li>
+                    <li>采取响应式编程方式，大力引入Rx技术栈；</li>
+                    <li>视频播放器采用节操播放器；</li>
+                    <li>重新封装Retrofit，独立成为一个Lib，完全于项目解耦；</li>
+                    <li>通过2个月的开发周期，将项目成功上线；</li>
+                </ul>
+            </li>
+        </ol>
+        <div class="cut_line">&nbsp;</div>
+        <p class="icon_style huizhuang skill_company_title">优舍·快乐家网络科技（北京）有限公司， Android高级开发工程师， 2016年5月~2016年12月</p>
+        <p class="icon_style company_location skill_company_title">所在地：北京</p>
+        <p class="icon_style decoration skill_company_title">O2O，家装</p>
+        <ol>
+            <li>
+                <p>优舍，优舍良匠两款App的从0开发到项目上线</p>
+                <ul class="task_list">
+                    <li>优舍系列的产品为房地产O2O类项目，B2C模式，为核心产品线；</li>
+                    <li>负责依照产品原型和UI效果图进行开发和迭代，主要使用基于OkHttp+Volley+EventBus的二次封装完成数据获取和事件传输；</li>
+                    <li>推崇Rx技术栈以及MVP模式；</li>
+                </ul>
+            </li>
+            <li>
+                <p>验收外包团队项目，在此基础上进行二次开发</p>
+                <ul class="task_list">
+                    <li>负责验收，主要从代码整洁程度，命名规范，最佳实践等角度进行；</li>
+                    <li>详细参照阿里Java开发手册；</li>
+                </ul>
+            </li>
+        </ol>
+        <div class="cut_line">&nbsp;</div>
+        <p class="icon_style tianheshiwei skill_company_title">北京天合数维科技有限公司， Android开发工程师， 2015年4月~2016年4月</p>
+        <p class="icon_style company_location skill_company_title">所在地：北京</p>
+        <p class="icon_style data_selector skill_company_title">地图，GIS，数据采集</p>
+        <ol>
+            <li>
+                <p>国家统计局三农普系列项目（涵盖农业保险，耕地统计调查，无人机采集。每一个业务线都是一个App）的跟进开发</p>
+                <ul class="skill_list task_list">
+                    <li>开发基于GPS坐标定位的专门适用于农地的统计调查系统；</li>
+                    <li>集成本地GIS数据，第三方高德API；</li>
+                </ul>
+            </li>
+            <li>
+                <p>A5（调查用机，可理解为Android手机）上OS中的预装软件</p>
+                <ul class="task_list">
+                    <li>采用Umeng多渠道打包，结合CI把各个版本Apk上传到自己域名上，方便设备采集人员及时进行安装；</li>
+                </ul>
+            </li>
+        </ol>
+        <div class="cut_line">&nbsp;</div>
+        <p class="icon_style huihong skill_company_title">天津辉宏科技，Java/Android开发工程师，2012年12月~2014年12月</p>
+        <p class="icon_style company_location skill_company_title">所在地：天津</p>
+        <p class="icon_style mobile_communication skill_company_title">移动通信，数据</p>
+        <ol>
+            <li>
+                <p>中国移动（天津）空港总部的移动数据分析</p>
+                <ul class="skill_list task_list">
+                    <li>这是一个数据分析的App，主要供中国移动内部人员使用以便抓取和查看月报，周报，日报的相关数据；</li>
+                    <li>负责去中国移动天津总部提取数据，主要通过编写SQL语句从数据库中查出需要的数据并整理成文档，且作为自身产品的数据源，
+                        显示到设备上；
+                    </li>
+                </ul>
+            <li>
+                <p>wap掌上营业厅，1065手机报，动感彩铃</p>
+                <ul class="skill_list task_list">
+                    <li>这是一个负责全市掌上营业厅、彩信短信下发、手机报和彩铃订阅的后台管理系统</li>
+                    <li>负责运用Java Web（hibernate+struts2+spring3）开发wap掌上营业厅的JSP页面和后台管理功能</li>
+                    <li>负责编写wap掌厅的Android客户端</li>
+                    <li>负责编写1065手机报的后台管理功能，结合动感彩铃完成短信下发</li>
+                </ul>
+            </li>
+            </li>
+        </ol>
     </div>
-</div>
-<header>
-    <h1>Resume</h1>
-</header>
-<div class="cut_line">&nbsp;</div>
-<div class="content">
-    <h2>一句话概括自己：</h2>
-    <div class="anyway icon_style">高级Android，Java老手，爱好Python，JavaScript辅助，有技术管理经验</div>
-    <h2>技能树：</h2>
-    <ul>
-        <li>
-            <p class="computer_basic icon_style skill_company_title">计算机通识</p>
-            <ol class="skill_list">
-                <li>具有扎实的数据结构基础；</li>
-                <li>深刻理解并运用面向对象（OOP）思想解决现实问题；</li>
-                <li>熟练掌握Java；</li>
-                <li>理解并掌握TCP/IP,HTTP协议；</li>
-                <li>熟悉常见的设计模式，例如观察者模式，简单工厂模式，适配器模式，迭代器模式，Builder模式等；</li>
-            </ol>
-        </li>
-        <li>
-            <p class="android_skill icon_style skill_company_title">Android技术栈</p>
-            <ul class="skill_list">
-                <li>擅用Android应用层开发上层建筑：Google MVP + RxJava + Retrofit + EventBus + ButterKnife + LeakCanary;</li>
-                <li>面向接口编程，模块化拆分，使每个模块尽可能的独立成一个本地Lib，方便后期孵化同质化App；</li>
-                <li>熟练掌握Android四大组件及Fragment的调用机制和彼此之间的数据传输通信；</li>
-                <li>熟练掌握Android五大数据存储方式并根据项目需求灵活应用；</li>
-                <li>熟练掌握Android消息机制、事件分发机制、View的绘制原理；</li>
-                <li>熟练掌握Android动画发展史及彼此间的优缺点、适用场景；</li>
-                <li>熟练掌握Android V层的布局，编写针对不同机型适配性较好的UI界面；</li>
-                <li>深刻理解MD设计风格；</li>
-                <li>了解Android跨进程（IPC）通信；</li>
-            </ul>
-        </li>
-        <li>
-            <p class="peoples icon_style skill_company_title">多人协作</p>
-            <ul class="skill_list">
-                <li>熟练使用Git命令行进行版本管理；</li>
-                <li>GitHub活跃用户，推崇基于Feature分支的Fork+PR的团队开发模式。</li>
-            </ul>
-        </li>
-        <li>
-            <p class="third_party icon_style skill_company_title">偏基础设施性质的第三方库</p>
-            <ul class="skill_list">
-                <li>地图：高德</li>
-                <li>支付：ping++</li>
-                <li>音视频播放：节操</li>
-                <li>客服IM：融云，环信</li>
-                <li>多渠道打包、统计： 友盟</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>三省吾身：</h2>
-    <ul>
-        <li class="icon_style location_self">
-            对自己的定位：大前端。主攻Android端，在Web端以及其他方面打打辅助。
-            我不希望过于依赖别人，即使没有后端没有设计没有产品经理，我依然想要把这个产品做到好。
-        </li>
-        <li class="icon_style work">
-            对工作的态度：高效完成本职工作，在完成的基础之上追求最佳实践，课余阅读专业书籍补充基础知识，这不仅是一份工作，更是一份事业。
-        </li>
-        <li class="icon_style solve_problem">
-            解决棘手问题：Google + GitHub + StackOverflow，业界都懂，不用过多解释；除此之外，偏重基础和原理方面的，查书 + 阅读源码 +
-            动手实验，也是不错的解决思路；
-        </li>
-        <li class="icon_style view">
-            如何保持视野：日刷GitHub Trending，积极Follow好玩的开源项目；泡社区，比如掘金，及时接受业界资讯；
-        </li>
-        <li class="icon_style develop">
-            如何持续发展：算法 + 数据结构 = 程序，上层再花哨，内功也是这些，所以更愿意把精力集中在原生语言和数据结构及算法本身，而不是一味去追瞬息万变的上层框架；
-        </li>
-        <li class="icon_style goodness">我的优势：拥有持续自我学习的动力和能力，有着不达目的誓不罢休的韧劲，良好的逻辑思维；另外相较于其他Android工程师，掌握JavaScript + H5 +
-            CSS也是我的优势之一；
-        </li>
-        <li class="icon_style badness">我的劣势：学历方面是短板，在这个看"脸"的时代，学历就是"脸"，参加了自学考试，目前仅剩3门就可毕业，死磕自考中……</li>
-    </ul>
-    <h2>教育经历：</h2>
-    <div><img id="university" src="./icon/university.jpg" alt="university"></div>
-    <div id="major">
-        <div>西安外事学院</div>
-        <div class="major">大专 计算机通信</div>
-    </div>
-    <h2>一路走来：</h2>
-    <p class="icon_style wanmen skill_company_title">北京万门教育，Android高级开发工程师，2017年4月至今</p>
-    <p class="icon_style company_location skill_company_title">所在地：北京</p>
-    <p class="icon_style business_video skill_company_title">教育类，直播，音视频</p>
-    <ol>
-        <li>
-            <p>万门大学、中学App线上迭代和维护</p>
-            <ul class="task_list">
-                <li>万门大学和中学是万门教育旗下的主打产品，以虚拟网络大学的形式面向在校学生推出定制化的精品在线课程，竞品有网易、新浪等公开课，可汗学院等；</li>
-                <li>负责大学中学两款App的整体重构，线上维护，和业务版本迭代；</li>
-                <li>引入LeakCanary对原有线上项目进行扫描，修补内存泄漏之处，并在重构阶段继续使用。</li>
-            </ul>
-        </li>
-        <li class="task_list">
-            <p>Android团队重构阶段基础架构搭建</p>
-            <ul>
-                <li>负责整个Android团队重构阶段的基础设施建立，Android架构主推MVP，消息总线改用EventBus，数据库采用Realm；</li>
-                <li>在开发过程中引入checkstyle，严格执行代码书写规范；</li>
-                <li>采取响应式编程方式，大力引入Rx技术栈；</li>
-                <li>视频播放器采用节操播放器；</li>
-                <li>重新封装Retrofit，独立成为一个Lib，完全于项目解耦；</li>
-                <li>通过2个月的开发周期，将项目成功上线；</li>
-            </ul>
-        </li>
-    </ol>
     <div class="cut_line">&nbsp;</div>
-    <p class="icon_style huizhuang skill_company_title">优舍·快乐家网络科技（北京）有限公司， Android高级开发工程师， 2016年5月~2016年12月</p>
-    <p class="icon_style company_location skill_company_title">所在地：北京</p>
-    <p class="icon_style decoration skill_company_title">O2O，家装</p>
-    <ol>
-        <li>
-            <p>优舍，优舍良匠两款App的从0开发到项目上线</p>
-            <ul class="task_list">
-                <li>优舍系列的产品为房地产O2O类项目，B2C模式，为核心产品线；</li>
-                <li>负责依照产品原型和UI效果图进行开发和迭代，主要使用基于OkHttp+Volley+EventBus的二次封装完成数据获取和事件传输；</li>
-                <li>推崇Rx技术栈以及MVP模式；</li>
-            </ul>
-        </li>
-        <li>
-            <p>验收外包团队项目，在此基础上进行二次开发</p>
-            <ul class="task_list">
-                <li>负责验收，主要从代码整洁程度，命名规范，最佳实践等角度进行；</li>
-                <li>详细参照阿里Java开发手册；</li>
-            </ul>
-        </li>
-    </ol>
-    <div class="cut_line">&nbsp;</div>
-    <p class="icon_style tianheshiwei skill_company_title">北京天合数维科技有限公司， Android开发工程师， 2015年4月~2016年4月</p>
-    <p class="icon_style company_location skill_company_title">所在地：北京</p>
-    <p class="icon_style data_selector skill_company_title">地图，GIS，数据采集</p>
-    <ol>
-        <li>
-            <p>国家统计局三农普系列项目（涵盖农业保险，耕地统计调查，无人机采集。每一个业务线都是一个App）的跟进开发</p>
-            <ul class="skill_list task_list">
-                <li>开发基于GPS坐标定位的专门适用于农地的统计调查系统；</li>
-                <li>集成本地GIS数据，第三方高德API；</li>
-            </ul>
-        </li>
-        <li>
-            <p>A5（调查用机，可理解为Android手机）上OS中的预装软件</p>
-            <ul class="task_list">
-                <li>采用Umeng多渠道打包，结合CI把各个版本Apk上传到自己域名上，方便设备采集人员及时进行安装；</li>
-            </ul>
-        </li>
-    </ol>
-    <div class="cut_line">&nbsp;</div>
-    <p class="icon_style huihong skill_company_title">天津辉宏科技，Java/Android开发工程师，2012年12月~2014年12月</p>
-    <p class="icon_style company_location skill_company_title">所在地：天津</p>
-    <p class="icon_style mobile_communication skill_company_title">移动通信，数据</p>
-    <ol>
-        <li>
-            <p>中国移动（天津）空港总部的移动数据分析</p>
-            <ul class="skill_list task_list">
-                <li>这是一个数据分析的App，主要供中国移动内部人员使用以便抓取和查看月报，周报，日报的相关数据；</li>
-                <li>负责去中国移动天津总部提取数据，主要通过编写SQL语句从数据库中查出需要的数据并整理成文档，且作为自身产品的数据源，
-                    显示到设备上；
-                </li>
-            </ul>
-        <li>
-            <p>wap掌上营业厅，1065手机报，动感彩铃</p>
-            <ul class="skill_list task_list">
-                <li>这是一个负责全市掌上营业厅、彩信短信下发、手机报和彩铃订阅的后台管理系统</li>
-                <li>负责运用Java Web（hibernate+struts2+spring3）开发wap掌上营业厅的JSP页面和后台管理功能</li>
-                <li>负责编写wap掌厅的Android客户端</li>
-                <li>负责编写1065手机报的后台管理功能，结合动感彩铃完成短信下发</li>
-            </ul>
-        </li>
-        </li>
-    </ol>
-</div>
-<div class="cut_line">&nbsp;</div>
-<footer>
-    the End
-</footer>
+    <footer>
+        the End
+    </footer>
 </body>
 <script src="index.js"></script>
+
 </html>
