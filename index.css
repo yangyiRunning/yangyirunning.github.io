@@ -166,19 +166,19 @@ body {
 }
 
 .GitHub {
-    font-size: 1.1em;
-    /* margin-left: 20px; */
+    float: left;
+    /* font-size: 1.1em; */
+    margin-left: 20px;
     list-style-type: disc;
     /* text-align: center; */
     color: red;
-    float: left;
-    position: relative;
-    left: 50%;
+    /* position: relative; */
+    /* left: 50%; */
     background-image: url("./icon/github.png");
 }
 
 .LeetCode {
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     float: left;
     margin-left: 40px;
     list-style-type: disc;
@@ -190,7 +190,7 @@ body {
     width: 330px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center
+    /* text-align: center */
 }
 
 a:hover,
