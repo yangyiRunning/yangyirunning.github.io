@@ -62,38 +62,39 @@
             <li>
                 <p class="computer_basic icon_style skill_company_title">计算机通识</p>
                 <ol class="skill_list">
-                    <li>常见数据结构与算法；</li>
+                    <li>熟悉常见数据结构与算法；</li>
                     <li>运用面向对象（OOP）思想解决实际问题；</li>
-                    <li>掌握Java；</li>
-                    <li>掌握Java内存模型(JMM)；</li>
-                    <li>掌握TCP/IP协议,HTTP协议；</li>
-                    <li>编码、加密、Hash、序列化；</li>
-                    <li>常见的设计模式，例如观察者模式，简单工厂模式，适配器模式，迭代器模式，Builder模式，代理模式等；</li>
+                    <li>熟练掌握Java；</li>
+                    <li>熟练掌握Java内存模型(JMM)及JVM垃圾回收机制；</li>
+                    <li>熟练掌握TCP/IP协议,HTTP协议；</li>
+                    <li>熟练掌握编码、加密、Hash、序列化；</li>
+                    <li>熟悉常见的设计模式，例如观察者模式，简单工厂模式，适配器模式，迭代器模式，Builder模式，代理模式等；</li>
                 </ol>
             </li>
             <li>
                 <p class="android_skill icon_style skill_company_title">Android技术栈</p>
                 <ul class="skill_list">
-                    <li>View的测量、布局、绘制；</li>
-                    <li>触摸反馈；</li>
-                    <li>Java多线程本质原理；</li>
-                    <li>Android消息机制本质原理；</li>
-                    <li>RxJava + Retrofit + OkHttp；</li>
-                    <li>Google MVP + MVC + MVVM；</li>
-                    <li>Android各基础组件以及Android数据存储方式；</li>
-                    <li>Android动画发展史、动画特点：View动画、属性动画；</li>
-                    <li>模块化:面向接口编程，base以及业务模块拆分，使每个模块尽可能的独立成一个本地Lib，方便后期孵化同质化App；</li>
+                    <li>熟练掌握View的测量、布局、绘制原理；</li>
+                    <li>熟练掌握触摸反馈原理；</li>
+                    <li>理解Java多线程本质原理；</li>
+                    <li>理解Android消息机制本质原理，阅读并掌握消息机制源码；</li>
+                    <li>熟练使用RxJava + Retrofit + OkHttp，阅读并掌握Okhttp源码；</li>
+                    <li>理解MVP、MVC、MVVM模式；</li>
+                    <li>理解Android各基础组件以及Android数据存储方式；</li>
+                    <li>熟练掌握View动画、属性动画；</li>
+                    <li>熟练应用模块化快速孵化App；</li>
+                    <li>熟练掌握Android性能优化方式(布局、绘制、gc、电量)；</li>
+                    <li>了解kotlin和Jetpack；</li>
                 </ul>
             </li>
             <li>
                 <p class="peoples icon_style skill_company_title">多人协作</p>
                 <ul class="skill_list">
-                    <li>Git分布仓库(命令行)；</li>
-                    <li>SVN中央仓库；</li>
-                    <li>基于Feature的Fork+PR，GitFlow工作流模式；</li>
+                    <li>熟练掌握git命令行分布式仓库，svn中央仓库；</li>
+                    <li>熟练掌握基于Feature的Fork+PR，GitFlow工作流模式；</li>
                 </ul>
             </li>
-            <li>
+            <!-- <li>
                 <p class="third_party icon_style skill_company_title">偏基础设施性质的第三方库(自己封装)</p>
                 <ul class="skill_list">
                     <li>基于Google Android开发蓝图的MVP封装；</li>
@@ -101,7 +102,7 @@
                     <li>基于Zxing的二维码扫描；</li>
                     <li>基于喜马拉雅的电台封装；</li>
                 </ul>
-            </li>
+            </li> -->
         </ul>
         <h2>一路走来：</h2>
         <p class="icon_style hexun skill_company_title">和讯网和讯财经，Android高级开发工程师，2017年9月~至今</p>
@@ -115,20 +116,25 @@
                     <li>负责的业务模块：1. 新闻专题；2. 评论模块； 3. 搜索模块； 4. 新人福利； 5. 多渠道url和图片分享；6. 每日热点新闻频道； 7. 专栏频道、专栏广场； 8. 护眼模式；
                         9.
                         新闻早晚报； 10. 自选股行情； 11. 公告研报PDF； 12. 云端收藏模块； 13. 推荐股票； </li>
+                    <li>负责项目基础设施库：1. activity路由库； 2. 基于zxing二次开发的扫一扫库； 3. TTS库； 4. 电台播放器； 5. 多渠道分享； 6. 性能优化；</li>
                 </ul>
             </li>
             <li>
-                <p>和讯财经App工程项目基础设施库开发</p>
+                <p>主要攻克的技术难点：</p>
                 <ul class="task_list">
-                    <li>activity隐式路由(主要用于解决外部链接跳转App，App内部唤起指定页面)；</li>
+                    <!-- <li>activity隐式路由(主要用于解决外部链接跳转App，App内部唤起指定页面)；</li>
                     <li>扫一扫库(在zxing源码的基础上添加运行时权限、读取相册、手电筒、UI重绘、生成任意文本内容)；</li>
                     <li>早晚报百度TTS库(文本转语音)；</li>
                     <li>电台播放器(一个完整的播放器控件)；</li>
                     <li>多渠道分享链接、图片、小程序(基于友盟分享)；</li>
                     <li>代码规约；</li>
-                    <li>工程项目APK包压缩；</li>
+                    <li>工程项目APK包压缩；</li> -->
+                    <li>解决信息流页面卡顿、耗电、过度绘制、APK包过大等问题；</li>
+                    <li>避免和防止了大量内存泄露；</li>
+                    <li>将整个工程实现分层，且完全模块化实现快读迭代；</li>
+                    <li>用MVP实现业务分离，尽可能的保证单一职责；</li>
+                </ul>
             </li>
-            </ul>
             </li>
         </ol>
         <div class="cut_line">&nbsp;</div>
@@ -141,18 +147,22 @@
                 <ul class="task_list">
                     <li>万门大学和中学是万门教育旗下的主打产品，以虚拟网络大学的形式面向在校学生推出定制化的精品在线课程，竞品有网易、新浪等公开课，可汗学院等；</li>
                     <li>负责大学中学两款App的整体重构，线上维护，和业务版本迭代；</li>
-                    <li>引入LeakCanary对原有线上项目进行扫描，修补内存泄漏之处，并在重构阶段继续使用。</li>
+                    <!-- <li>引入LeakCanary对原有线上项目进行扫描，修补内存泄漏之处，并在重构阶段继续使用。</li> -->
                 </ul>
             </li>
             <li class="task_list">
-                <p>Android团队重构阶段基础架构搭建</p>
+                <p>主要涉及的技术要点：</p>
                 <ul>
-                    <li>负责整个Android团队重构阶段的基础设施建立，Android架构主推MVP，消息总线改用EventBus，数据库采用Realm；</li>
-                    <li>在开发过程中引入checkstyle，严格执行代码书写规范；</li>
-                    <li>采取响应式编程方式，大力引入Rx技术栈；</li>
-                    <li>视频播放器采用节操播放器；</li>
-                    <li>重新封装Retrofit，独立成为一个Lib，完全于项目解耦；</li>
-                    <li>通过2个月的开发周期，将项目成功上线；</li>
+                    <li>新App基础设施的整体搭建（网络模块、线程模块、业务分层）；</li>
+                    <li>大力推广Rx重构旧有项目；</li>
+                    <li>对现有项目进行性能评估，从电量、包大小、代码层面进行性能优化；</li>
+                    <li>设计App缓存和数据持久化方案，提升App加载速度；</li>
+                    <!-- <li>负责整个Android团队重构阶段的基础设施建立，Android架构主推MVP，消息总线改用EventBus，数据库采用Realm；</li> -->
+                    <!-- <li>在开发过程中引入checkstyle，严格执行代码书写规范；</li> -->
+                    <!-- <li>采取响应式编程方式，大力引入Rx技术栈；</li> -->
+                    <!-- <li>视频播放器采用节操播放器；</li> -->
+                    <!-- <li>重新封装Retrofit，独立成为一个Lib，完全于项目解耦；</li> -->
+                    <!-- <li>通过2个月的开发周期，将项目成功上线；</li> -->
                 </ul>
             </li>
         </ol>
@@ -243,7 +253,6 @@
             </li>
             <li class="icon_style goodness">我的优势：强烈危机意识，不间断自我学习和自我完善，有着不达目的誓不罢休的韧劲，良好的逻辑思维；
             </li>
-            <li class="icon_style badness">我的劣势：非名校科班出身，数据结构和算法是弱项。</li>
         </ul>
         <h2>教育经历：</h2>
         <div><img id="university" src="./icon/beihang_university_logo.png" alt="university"></div>
