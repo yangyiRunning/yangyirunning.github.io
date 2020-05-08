@@ -62,6 +62,10 @@ ul li {
     background-image: url("./icon/peoples.png");
 }
 
+.be_good_at{
+    background-image: url("./icon/microscope.png");
+}
+
 .third_party {
     background-image: url("./icon/third_party.png");
 }
